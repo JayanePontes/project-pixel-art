@@ -1,31 +1,38 @@
 .color {
-    border: solid 1px black;
-    width: 40px;
-    height: 40px;
-    display: inline-flex;
+  border: solid 1px black;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
 }
+
 #cor1 {
-    background-color: black;
+  background-color: black;
 }
-#cor2 { 
-    background-color: red;
+
+#cor2 {
+  background-color: red;
 }
+
 #cor3 {
-    background-color: blue;
+  background-color: blue;
 }
-#cor4 { 
-    background-color: green;
+
+#cor4 {
+  background-color: green;
 }
-#cor5 { 
-    background-color: #fff;
+
+#cor5 {
+  background-color: #fff;
 }
+
 #white {
-    background-color: white;
+  background-color: white;
 }
+
 .pixel {
-    background-color: white;
-    border: solid 1px black;
-    width: 40px;
-    height: 40px;
-    display: inline-flex;
+  background-color: white;
+  border: solid 1px black;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
 }

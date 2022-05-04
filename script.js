@@ -2,12 +2,12 @@ const pixelBoard = document.querySelector("#pixel-board");
 for (let index = 0; index < 5; index += 1) {
     let linhas = document.createElement("div");
     pixelBoard.appendChild(linhas);
-    
+
     for (let i = 0; i < 5; i +=1 ) {
         let colunas = document.createElement("div");
         colunas.className = "pixel";
         linhas.appendChild(colunas);
-    } 
+    }
 }
 
 const cor1 = document.querySelector("#cor1");
@@ -24,7 +24,7 @@ function selecionarCor(cor) {
     cor.target.classList.add("selected");
     console.log(selecionarCor);
     console.log(cor.target);
-} 
+}
 function pintarPixel(pixel) {
     let selecionarCor = document.querySelector(".selected");
     const cliqueiNoPixel = pixel.target;
